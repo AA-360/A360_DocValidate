@@ -1,0 +1,1 @@
+[{"name":"ValidateCPF","label":"ValidateCPF","description":"verifica se é um CPF válido","nodeLabel":"{{cpf}} é valido?","mainClass":"com.automationanywhere.botcommand.samples.commands.conditionals.ValidateCPFCondition","attributes":[{"name":"cpf","label":"CPF:","description":"123456789","type":"TEXT","rules":[{"name":"NOT_EMPTY"}]}]}]

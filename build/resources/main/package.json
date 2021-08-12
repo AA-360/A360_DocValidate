@@ -1,0 +1,35 @@
+{
+    "name": "DocValidate_Uts",
+    "label": "DocValidate_Uts",
+    "description": "",
+    "group": "com.automationanywhere",
+    "artifactName": "DocValidate_Uts",
+    "packageVersion": "1.0-20210812-141416",
+    "codeVersion": "1.0-20210812-141416",
+    "author": "",
+    "commands": [
+        
+    ],
+    "conditionals": [
+        {
+            "name": "ValidateCPF",
+            "label": "ValidateCPF",
+            "description": "verifica se \u00e9 um CPF v\u00e1lido",
+            "nodeLabel": "{{cpf}} \u00e9 valido?",
+            "mainClass": "com.automationanywhere.botcommand.samples.commands.conditionals.ValidateCPFCondition",
+            "attributes": [
+                {
+                    "name": "cpf",
+                    "label": "CPF:",
+                    "description": "123456789",
+                    "type": "TEXT",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
